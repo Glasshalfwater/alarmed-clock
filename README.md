@@ -1,5 +1,39 @@
 # Integral Clock
-This project's aim is to create an alarm clock capable of playing basic music, linking to other sensors over wifi, and throwing math problems at the target subject until they have no choice but to wake up. The current implementation involves the only way of turning off the alarm to be solving definite integrals. Future plans include connectivity to other modules over WiFi to require the person being subjected to this to leave the room (or maybe the house, on a morning run or similar activities) or perform other activities to ensure that they are in fact, awake, and will not return to bed.
+### A WiFi-capable alarm clock that can play "music" and annoy you with math until you wake up.
+This project's aim is to create an alarm clock capable of playing basic music, linking to other sensors over wifi, and throwing math problems at the target subject until they have no choice but to wake up. 
+
+The current implementation involves the only way of turning off the alarm to be solving definite integrals. Future plans include connectivity to other modules over WiFi to require the person being subjected to this to leave the room (or maybe the house, on a morning run or similar activities) or perform other activities to ensure that they are in fact, awake, and will not return to bed.
+
+### Origin:
+
+To be honest, I struggle with getting out of bed when my alarm goes off. I typically hit snooze at least once (or thrice) before getting out of bed as late as possible. Moving my alarm to other rooms really isn't an option and I have demonstrated that I am capable of crossing the room, digging through drawers, turning off my alarm, and going back to bed. Thus, in perhaps an overengineered fashion I decided to make my own alarm clock without a snooze function (or an off button).
+
+I have yet to test the most effective method of inducing body temperature rise (and thus waking up) but science seems to suggest that exercise and cold showers immediately after waking up are some of the best options. Given that I have no desire to make the only method of turning off my alarm to take a cold shower in the morning, and I currently don't have a method of verifying exercising over WiFi (I may link the ESP32S3 to a watch over bluetooth or add a beam break at the door), my current plan is to use force mental exertation in order to wake my brain up (i.e. math problems). (Although, I may train a model like YOLO-8 to recognize jump roping and simply use an outdoor camera to verify physical activity, again, could be dangerous during the winter months though) 
+
+Of course, the difficulty of the math problems have to be carefully chosen such as to be challenging enough that I can't perform them and then return to sleep (i.e. basic multiplication, simple algebra, basic derivatives, etc.) but also reasonable to complete in, say, 3 minutes after just waking up. Of course, proofs are also unable to be used because of a lack of processing power and sufficient input methods on the alarm clock. Currently I'm planning on using definite integrals to force myself to go through multiple steps per problem (while also not being too difficult, likely won't do anything past inverse trig equations) and also to force myself to use paper and pencil. This of course has the added benefit of keeping me in practice with regards to single-variable calculus.
+
+## Wiring Schematic
+
+![alarmed-clock wiring schematic](/assets/integral_clock_schematic.png)
+
+## PCB
+### Top Layer:
+![clock pcb top view](/assets/integral_clock_pcb_top.png)
+
+### Bottom Layer:
+![clock pcb bottom layer](/assets/integral_clock_pcb_botton.png)
+
+## CAD
+### Design completed in Onshape
+
+[Document Link]()
+
+Isometric:
+![CAD assembly isometric](/assets/integral_clock_cad.png)
+
+## PCB Order 
+Via JLCPCB:
+
 
 
 ### BOM
@@ -14,3 +48,7 @@ This project's aim is to create an alarm clock capable of playing basic music, l
 |1       |  JST 2-pin header               | $0.72 for 20                                       | Connecting battery cable                                                             | JST                | LCSC.com                             | https://www.lcsc.com/product-detail/C131337.html?s_z=n_q_C131337&globalKeyword=C131337                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |      |
 |1       | 3.7v LiPo Battery w/ Short Cable| $6.95                                              | Powering circuit when not connected over USB-C                                       | Adafruit Industries| Adafruit Industries                  | https://www.adafruit.com/product/4236                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |      |
 |1       | PETG Filament for Case          | ~$1.5 (~$0.03 per gram for ~43 grams at 50% infill)| Protecting circuit and PCB                                                           | Bambu              | Bambu A1 Mini or P1S (free access to)| https://us.store.bambulab.com/products/petg-basic?id=738167451007287326&skr=yes&srsltid=AYCX9vKs56FvN0TbogePtkfMKkGFU-8XHuPbflE_q1Ne9i5W7lo3gTJMRZw                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |      |
+
+
+## Credits
+This project was created as a part of Hack Club Stardance's Blare workshop (blare.hackclub.com)
