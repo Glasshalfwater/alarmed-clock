@@ -4,6 +4,8 @@ This project's aim is to create an alarm clock capable of playing basic music, l
 
 The current implementation features a 2.8" TFT display with 3 buttons for input (selecting answers, setting alarm, etc.) and a 420 mAh LiPo battery for travel purposes enclosed in a durable PETG casing. The only way to turn off the alarm planned right now is to be solving definite integrals. Future plans include connectivity to other modules over WiFi to require the person being subjected to this to leave the room (or maybe the house, on a morning run or similar activities) or perform other activities to ensure that they are in fact, awake, and will not return to bed.
 
+NOTE FOR REVIEWERS: I am using a mix of parts with some that are not in the kit of parts from BLARE that I already own or intend to purchase myself. Sourcing for all parts is denoted in the BOM below and in the .csv file.
+
 ### Origin:
 
 To be honest, I struggle with getting out of bed when my alarm goes off. I typically hit snooze at least once (or thrice) before getting out of bed as late as possible. Moving my alarm to other rooms really isn't an option and I have demonstrated that I am capable of crossing the room, digging through drawers, turning off my alarm, and going back to bed. Thus, in perhaps an overengineered fashion I decided to make my own alarm clock without a snooze function (or an off button).
