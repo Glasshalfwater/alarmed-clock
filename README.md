@@ -21,19 +21,42 @@ Of course, the difficulty of the math problems have to be carefully chosen such 
 ![clock pcb top view](/assets/integral_clock_pcb_top.png)
 
 ### Bottom Layer:
-![clock pcb bottom layer](/assets/integral_clock_pcb_botton.png)
+![clock pcb bottom layer](/assets/integral_clock_pcb_bottom.png)
+
+### 3D View Top:
+![clock pcb 3d view top layer](/assets/pcb_3dview_top.png)
+
+### 3D View Bottom:
+![clock pcb 3d view top layer](/assets/pcb_3dview_bottom.png)
 
 ## CAD
 ### Design completed in Onshape
 
-[Document Link]()
+[Document Link](https://cvilleschools.onshape.com/documents/9dc3dff3a2d00cce4e52e484/w/d224b5bf15cdee65343ba0da/e/0274f1c24004c26469ea7ce8?renderMode=0&uiState=6aefdacb49cd08c4fdbf94c6)
 
 Isometric:
-![CAD assembly isometric](/assets/integral_clock_cad.png)
+![CAD assembly isometric view](/assets/integral_clock_cad_assembly_isometric.png)
+
+Front:
+![CAD assembly front view](/assets/cad_assembly_front1.png)
+
+Back:
+![CAD assembly back view](/assets/cad_assembly_back.png)
+
+Top:
+![CAD assembly top view](/assets/cad_assembly_top.png)
+
+Bottom (port):
+![CAD assembly bottom view](/assets/cad_assembly_bottom.png)
+
+Sides:
+![CAD assembly isometric](/assets/cad_assembly_side.png) 
+
+
 
 ## PCB Order 
 Via JLCPCB:
-
+![PCB order checkout image](/assets/pcb_order.png)
 
 
 ### BOM
