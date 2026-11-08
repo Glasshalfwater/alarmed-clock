@@ -76,4 +76,4 @@ Via JLCPCB:
 
 
 ## Credits
-This project was created as for Hack Club's BLARE YSWS (blare.hackclub.com) as a part of Hack Club and NASA's Stardance program which was a 6 month long program where teens built (and shipped!) technical projects and got cool stuff in return (stardance.hackclub.com)! Hack Club is a non-profit that runs really cool programs for teenagers, if you're a teen reading this, you should give it a shot! https://www.hackclub.com
+This project was created as for Hack Club's BLARE YSWS (blare.hackclub.com) as a part of Hack Club and NASA's Stardance program which was a 6 month long program where teens built (and shipped!) technical projects and got cool stuff in return (stardance.hackclub.com)! Hack Club is a non-profit that runs really awesome programs for teenagers, if you're a teen reading this, you should give it a shot! https://www.hackclub.com
