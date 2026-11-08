@@ -2,7 +2,7 @@
 ### A WiFi-capable alarm clock that can play "music" and annoy you with math until you wake up.
 This project's aim is to create an alarm clock capable of playing basic music, linking to other sensors over wifi, and throwing math problems at the target subject until they have no choice but to wake up. 
 
-The current implementation involves the only way of turning off the alarm to be solving definite integrals. Future plans include connectivity to other modules over WiFi to require the person being subjected to this to leave the room (or maybe the house, on a morning run or similar activities) or perform other activities to ensure that they are in fact, awake, and will not return to bed.
+The current implementation features a 2.8" TFT display with 3 buttons for input (selecting answers, setting alarm, etc.) and a 420 mAh LiPo battery for travel purposes enclosed in a durable PETG casing. The only way to turn off the alarm planned right now is to be solving definite integrals. Future plans include connectivity to other modules over WiFi to require the person being subjected to this to leave the room (or maybe the house, on a morning run or similar activities) or perform other activities to ensure that they are in fact, awake, and will not return to bed.
 
 ### Origin:
 
